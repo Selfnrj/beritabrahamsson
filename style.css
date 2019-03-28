@@ -578,7 +578,6 @@ a:active {
 
 .main-navigation {
 	text-align: center;
-	border-top: 1px solid #efefef;
 }
 
 .main-navigation li {
@@ -1132,7 +1131,8 @@ h3.entry-title {
 .site-header {
 	box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.14) inset;
 	position: relative;
-	color: #2D2D2D;
+    color: white;
+    background-color: #333;
 }
 .site-header .site-container {
 	text-align: center;
@@ -2336,8 +2336,7 @@ body,
 }
 h1, h2, h3, h4, h5, h6,
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a,
-.widget-area .widget-title,
-.main-navigation ul li a {
+.widget-area .widget-title {
     color: #000000;
     font-family: 'Lato', 'Tahoma', sans-serif;
 }
