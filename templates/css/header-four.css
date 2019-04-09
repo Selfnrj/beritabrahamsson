@@ -57,10 +57,9 @@ a.site-logo-img {
 .site-description {
     margin: 0;
     padding: 0 0 14px;
-    font-size: 13px;
+    font-size: 18px;
     line-height: 1.2em;
     font-weight: 300;
-    text-transform: uppercase;
     color: inherit;
 }
 .site-description-img {

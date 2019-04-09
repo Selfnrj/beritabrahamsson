@@ -22,7 +22,7 @@ global $woocommerce; ?>
 				<?php wp_nav_menu( array( 'theme_location' => 'top-bar-menu', 'fallback_cb' => false ) ); ?>
 				
 				<?php if ( ! get_theme_mod( 'vogue-header-hide-add', customizer_library_get_default( 'vogue-header-hide-add' ) ) ) : ?>
-	            	<span class="site-topbar-left-ad"><i class="fas fa-map-marker-alt"></i> <?php echo wp_kses_post( get_theme_mod( 'vogue-website-site-add', __( 'Cape Town, South Africa', 'vogue' ) ) ) ?></span>
+	            	<span class="site-topbar-left-ad"><?php echo wp_kses_post( get_theme_mod( 'vogue-website-site-add', __( 'Cape Town, South Africa', 'vogue' ) ) ) ?></span>
 				<?php endif; ?>
 				
 				<?php do_action ( 'vogue_topbar_left_right' ); ?>

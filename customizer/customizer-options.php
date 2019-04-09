@@ -7,8 +7,8 @@
 
 function customizer_library_vogue_options() {
 
-	$primary_color = '#F061A8';
-	$secondary_color = '#EA1B82';
+	$primary_color = '#3498db';
+	$secondary_color = '#2980b9';
 
 	$body_font_color = '#3C3C3C';
 	$heading_font_color = '#000000';

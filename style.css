@@ -1139,11 +1139,11 @@ h3.entry-title {
 }
 
 .site-header-topbar {
-    box-shadow: 0 -1px 0 #efefef inset;
     min-height: 50px;
     padding: 10px 0 0;
     color: #2D2D2D;
     line-height: 13px;
+    color: white;
 }
 
 .site-topbar-left {
@@ -1223,6 +1223,7 @@ h3.entry-title {
 }
 .site-branding a {
     display: block;
+    color: white !important;
 }
 .site-branding a img {
     display: block;
@@ -1312,7 +1313,6 @@ h3.entry-title {
     border-bottom: 1px solid #efefef;
     position: relative;
     width: 100%;
-    border-top: 1px solid #efefef;
     overflow: hidden;
 }
 .home-slider-wrap-hint {
@@ -2396,14 +2396,13 @@ input[type="submit"],
 .main-navigation button,
 .wpcf7-submit {
     background: inherit;
-    background-color: #F061A8;
+    background-color: #3498db;
 }
 
 a,
 .content-area .entry-content a,
 #comments a,
 .post-edit-link,
-.site-title a,
 .error-404.not-found .page-header .page-title span,
 .search-button .fa-search,
 .header-cart-checkout.cart-has-items .fa-shopping-cart,
@@ -2413,11 +2412,11 @@ a,
 .main-navigation div > ul > li.current-menu-parent > a,
 .main-navigation div > ul > li.current_page_parent > a,
 .main-navigation div > ul > li.current_page_ancestor > a {
-    color: #F061A8;
+    color: #3498db;
 }
 .wp-block-quote:not(.is-large),
 .wp-block-quote:not(.is-style-large) {
-    border-left-color: #F061A8;
+    border-left-color: #3498db;
 }
 
 
@@ -2441,7 +2440,7 @@ a:hover,
 .woocommerce div.product .woocommerce-tabs ul.tabs li.active,
 .woocommerce-page #content div.product .woocommerce-tabs ul.tabs li.active,
 .woocommerce-page div.product .woocommerce-tabs ul.tabs li.active {
-    color: #EA1B82;
+    color: #2980b9;
 }
 
 .main-navigation button:hover,
@@ -2475,5 +2474,13 @@ input[type="submit"],
 .woocommerce button.button.alt.disabled:hover,
 .wpcf7-submit:hover {
     background: inherit;
-    background-color: #EA1B82;
+    background-color: #2980b9;
+}
+
+.wp-block {
+    max-width: 1280px !important;
+}
+
+.home .woocommerce-products-header__title {
+    display: none;
 }
