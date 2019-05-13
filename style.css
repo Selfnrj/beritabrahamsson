@@ -590,7 +590,7 @@ a:active {
 }
 
 .main-navigation ul ul {
-	background-color: #fff;
+	background-color: #333;
 	border-top: 2px solid #000;
 	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.08);
 	float: left;
