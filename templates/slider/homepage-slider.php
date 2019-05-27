@@ -41,7 +41,7 @@ elseif ( get_theme_mod( 'vogue-slider-type' ) == 'vogue-meta-slider' ) : ?>
                         
                             <img src="<?php echo get_template_directory_uri() ?>/images/slider_blank_img_medium.gif" />
                             
-                            <div class="home-slider-block-inner">
+                            <!-- <div class="home-slider-block-inner">
                                 <div class="home-slider-block-bg">
                                     <h3>
                                         <?php the_title(); ?>
@@ -52,7 +52,7 @@ elseif ( get_theme_mod( 'vogue-slider-type' ) == 'vogue-meta-slider' ) : ?>
                                         <p><?php the_content(); ?></p>
                                     <?php endif; ?>
                                 </div>
-                            </div>
+                            </div> -->
                             
                         </div>
                     

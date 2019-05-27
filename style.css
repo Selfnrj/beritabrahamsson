@@ -2484,3 +2484,7 @@ input[type="submit"],
 .home .woocommerce-products-header__title {
     display: none;
 }
+
+.wpb_wl_quick_view_content {
+    max-width: 1280px;
+}
